@@ -1,7 +1,7 @@
 
 
 // module.exports = { API }
-module.exports = { API }
+
 
 class API {
   #secure = null;
@@ -34,3 +34,5 @@ console.log(s.url); // https://api.com/api/hello
 console.log(s.method); // GET
 
 console.log(s.secure); // Uncaught SyntaxError: Private field '#secure' must be declared in an enclosing class
+
+module.exports = { API }
